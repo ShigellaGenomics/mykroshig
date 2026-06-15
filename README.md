@@ -7,7 +7,7 @@ Mykrobe v0.9.0+ can identify input genomes and assign them to hierarchical genot
 This package parses the JSON files output by Mykrobe (one per genome) and tabulates the results in a single tab-delimited file.
 
 ## Requirements
-* Python 3.7+
+* Python 3.7+ (has been tested on 3.12)
 * No external dependencies (uses only Python standard library)
 
 ## Installation
