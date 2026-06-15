@@ -63,6 +63,14 @@ Once Mykrobe results are generated, use `mykrobeshig` to parse them. MykrobeShig
 mykrobeshig --jsons mykrobe_results/*.json --prefix results_mykrobe_parsed
 ```
 
+### Example data
+
+We have provided two example Mykrobe output files inside the `example_data` directory in this repository. You can test your installation is working correctly by running the following command, and checking that the resulting file matches the one found in `example_data/example_output_predictResults.tsv`.
+
+```bash
+myrkboeshig --jsons example_data/ERR047239.json example_data/SRR7223147.json --prefix example_output 
+```
+
 ## Output
 The output table will be named *prefix*_predictResults.tsv, and will be in tab-delimited format.
 
@@ -102,4 +110,4 @@ This program is free software: you can redistribute it and/or modify it under th
 
 If you use the sonnei scheme for typing, please cite: Hawkey, J. et al. Global population structure and genotyping framework for genomic surveillance of the major dysenteric pathogen, Shigella sonnei. Nat Commun 12, 2684 (2021). https://doi.org/10.1038/s41467-021-22700-4
 
-If you use the flexneri scheme for typing, please cite: TBD
+If you use the flexneri scheme for typing, please cite: Hawkey, J. et al. Flex-It: A global standardised genotyping framework for Shigella flexneri. bioRxiv (2026). https://doi.org/10.64898/2026.04.17.719127  
